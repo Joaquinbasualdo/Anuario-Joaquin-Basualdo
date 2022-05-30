@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+    margin: 0%;
+}
+
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    background-color: #001896;
+}
+
+ul{
+    background-color: rgb(33, 37, 41);
+    padding: 0;
+}
+
+.intro{
+    display: grid;
+    margin: 5% 20%;
+}
+
+h2{
+    text-align: center;
+    margin: 5% 0%;
+}
+
+.ordenPerfil{
+
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    gap: 3%;
+    justify-content: center;
+    align-items: center;
+    margin: 3% 0%;
+
+}
+
+.ordenAlternativo{
+
+    display: grid;
+    grid-template-columns: 45% 45%;
+    gap: 4%;
+    margin: 3% 0%;
+
+}
+
+.item{
+
+    text-align: center;
+
+}
+
+.txtPerfil{
+
+    text-align: center;
+    
+}
+
+
+#sh{
+
+    height: 70vh;
+    width: 30vw;
+
+}
+
+#trinche{
+
+    height: 70vh;
+    width: 30vw;
+
+}
+
+#fachi{
+
+    height: 70vh;
+    width: 30vw;
+
+}
+
+#primero{
+
+    height: 70vh;
+    width: 30vw;
+    
+}
+
+h3{
+
+    text-align: center;
+
+}
+
+.divisionAños{
+
+    display: grid;
+    grid-template-columns: 46% 46%;
+    gap: 8%;
+    
+
+}
+
