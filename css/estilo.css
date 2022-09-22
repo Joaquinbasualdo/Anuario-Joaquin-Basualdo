@@ -13,22 +13,102 @@ html{
 #logo{
     display: flex;
     justify-content: center;
-    background-color: #001896;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(33, 37, 41);
+    height: 30vh;
+   
 }
+
+#abreviacion{
+    font-family: 'Rakkas', cursive;
+    color: aliceblue;
+    background-color: none;
+    font-size: 900%;
+    transition: all 300ms ease;
+    z-index: 1;
+}
+
+#nombre{
+    font-family: 'Montserrat', sans-serif;
+    color: aliceblue;
+    background-color: none;
+    position: absolute;
+    left: 40vw;
+    z-index: 2;
+    animation-name: entradaL;
+    animation-duration: 3s;
+}
+
+#apellido{
+  color: aliceblue;
+  font-family: 'Montserrat', sans-serif;
+
+  position: absolute;
+  right: 40vw;
+  z-index: 2;
+  
+  animation-name: entradaD;
+  animation-duration: 3s;
+  animation-delay: 1s;
+}
+
+@keyframes entradaL{
+  from{
+    left: -100vw;
+  }
+
+  to{
+    left: 40vw;
+  }
+  
+}
+
+@keyframes entradaD{
+  from{
+    right: -100vw;
+  }
+
+  to{
+    right: 40vw;
+  }
+  
+}
+
+
 
 ul{
     background-color: rgb(33, 37, 41);
     padding: 0;
+    margin: 0;
 }
+
+li:hover{
+  background-color: ;
+}
+
+li{
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+
 
 .intro{
     display: grid;
     margin: 5% 20%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
 }
 
 h2{
     text-align: center;
-    margin: 5% 0%;
+    margin: 5%;
 }
 
 .ordenPerfil{
@@ -92,6 +172,32 @@ h2{
     
 }
 
+#segundo{
+    height: 70vh;
+    width: 30vw;
+    
+}
+
+#Tercero{
+    height: 55vh;
+    width: 45vw;
+}
+
+#cuarto{
+    height: 75vh;
+    width: 22vw;
+}
+
+#Quinto{
+    height: 70vh;
+    width: 42vw;
+}
+
+#sexto{
+    height: 70vh;
+    width: 42vw;
+}
+
 h3{
 
     text-align: center;
@@ -107,3 +213,186 @@ h3{
 
 }
 
+body{
+
+    background: url(https://cdn.discordapp.com/attachments/720624758294839336/982046056378408970/Fondo4.webp);
+    background-size: cover;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+.textoAños{
+
+    margin: 0% 5%;
+    line-height: 30px;
+    text-align: justify;
+
+}
+
+.carousel-item{
+
+    
+    width: 35vw;
+    height: 100vh;
+
+}
+
+.carousel-inner{
+    
+ 
+
+}
+
+.txtRandom{
+
+    text-align: center;
+    margin: 5% 10%;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+p{
+  font-size: 130%;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+#fondo{
+  margin: 0% 20%;
+}
+
+
+h6{
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 150%;
+}
+
+h3{
+  font-family: 'Public Sans', sans-serif;
+  font-size: 300%;
+  margin: 7%;
+}
+
+.profes{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 10vh;
+}
+
+.pro{
+  font-family: 'Roboto Slab', serif;
+  font-size: 230%;
+  box-shadow: 3px 3px 6px 6px yellow;
+  margin-bottom: 3%;
+}
+
+header{
+  position: sticky;
+}
+
+#carusel{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fotardas{
+  height: 100%;
+  width: 100%;
+}
+
+#boton:hover {
+  text-decoration: none;
+  font-size: 3vw;
+  color: white;
+  position: fixed;
+  top: 88%;
+  left: 88%;
+  background-color: red;
+  border-radius: 20%;
+  padding: 0.2vw;
+  opacity: 3; 
+ transition: all 0.5s ease-out;
+}
+#boton{
+  text-decoration: none;
+  font-size: 2vw;
+  color: white;
+  position: fixed;
+  top: 92%;
+  left: 92%;
+  background-color: red;
+  border-radius: 20%;
+  padding: 0.2vw;
+  opacity: 40%;
+}
+
+
+.años{
+  text-align: center;
+  font-size: 300%;
+  margin-top: 10%;
+}
+
+.imgGale{
+  height: 60vh;
+  width: 25vw;
+}
+
+.conjFotos{
+  margin-bottom: 10%;
+}
+
+li{
+  font-size: 180%;
+  text-decoration: none;
+}
+
+.intro{
+  text-align: justify;
+}
+
+.txtRandom{
+  text-align: justify;
+}
+
+.imgGale{
+  box-shadow: 2px 2px 2px 2px black;
+  filter: brightness(30%);
+  transition: 1s;
+}
+
+.imgGale:hover{
+  filter: brightness(100%);
+  width: 30vw;
+  height: 77vh;
+  transition: 2s;
+}
+
+H2{
+  font-family: 'Rajdhani', sans-serif;
+  text-decoration: none;
+  font-size: 400%;
+}
+
+#Random1{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.linkardo{
+  color: black;
+}
+
+#rayo{
+  width: 10vw;
+  height: 10vh;
+}
